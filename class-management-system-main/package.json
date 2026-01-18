@@ -1,0 +1,24 @@
+{
+  "name": "class-schedule-php",
+  "version": "1.0.0",
+  "description": "Class Schedule Management System built with PHP and Tailwind CSS",
+  "main": "index.php",
+  "scripts": {
+    "watch": "tailwindcss -i ./src/input.css -o ./public/output.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./public/output.css"
+  },
+  "keywords": [
+    "scheduling",
+    "class-management",
+    "php",
+    "tailwind",
+    "education"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5"
+  }
+}
